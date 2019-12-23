@@ -1,0 +1,19 @@
+{
+  "name": "SoupBot",
+  "version": "1.0.0",
+  "description": "currently in alpha, a work in progress",
+  "author": "jaden/marley",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "dotenv": "^8.2.0",
+    "rollbar": "^2.14.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
